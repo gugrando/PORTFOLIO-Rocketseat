@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@400;600;700&display=swap');
+:root{
+  font-size: 62.5%;
+}
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100% );
+  font-size: 1.6rem;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+body, button, input{
+  font-family: 'DM Sans', sans-serif;
+}
+button{
+  width: 8.5rem;
+  background-color: #7879F1;
+  color: white;
+  font-weight: bold;
+  border-radius: 0rem .4rem .4rem 0;
+  cursor: pointer;
+  transition: background .3s;
+}
+button:hover{
+  background-color: #6868d5;
+
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  box-shadow:  0 .2rem .4rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.6rem;
+  padding: 4.8rem 6.4rem 6.4rem ;
+  width: min(42.8rem, 90%);
+  margin-top: -12rem;
+  text-align: center;
+}
+
+/* Screen 1 */
+.hide{
+  display: none;
+}
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+  color: #34355b;
+}
+p{
+  color: #34355b;
+  opacity: 0.8;
+}
+form{
+  margin-top: 4.8rem;
+  display: flex;
+  justify-content: center;
+}
+input, button{
+  border:none;
+  padding: 1.6rem;  
+} 
+input{
+  background-color: #DCE2E9;
+  width: 5rem;
+  border-radius: .4rem 0 0 .4rem;
+}
+
+/* Screen 2 */
+.screen2 h2{
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin-bottom: 3.3rem;
+}
+.screen2 button{
+  width: 15rem;
+  border-radius: .4rem;
+}
