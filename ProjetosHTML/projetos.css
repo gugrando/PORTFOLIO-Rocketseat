@@ -83,14 +83,14 @@ a span{
   color: green;
 }
 #landing1{
-  background-image: url(./assets/LP1.png);
+  background-image: url(../ProjetosHTML/assets/LP1.png);
 }
 #landing1:hover{
   opacity: 100%;
 }
 
 #landing2{
-  background-image: url(./assets/LP2.png);
+  background-image: url(../ProjetosHTML/assets/LP2.png);
   background-position: 100px;
 }
 #landing2:hover{
@@ -98,7 +98,7 @@ a span{
 }
 
 #landing3{
-  background-image: url(./assets/LP3.png);
+  background-image: url(../ProjetosHTML/assets/LP3.png);
   background-position: 0px -100px;
 
 }
@@ -109,7 +109,7 @@ a span{
   opacity: 100%;
 }
 #landing4{
-  background-image: url(./assets/LP4.png);
+  background-image: url(../ProjetosHTML/assets/LP4.png);
   background-position: -10px;
   background-color: #28293e;
   color: white;
@@ -118,7 +118,7 @@ a span{
   opacity: 100%;
 }
 #landing5{
-  background-image: url(./assets/FORM1.png);
+  background-image: url(../ProjetosHTML/assets/FORM1.png);
   background-position: -10px;
   background-color: #111112;
 }
